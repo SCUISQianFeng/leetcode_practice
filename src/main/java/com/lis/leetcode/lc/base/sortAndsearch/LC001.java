@@ -1,4 +1,4 @@
-package com.lis.leetcode.lc.base.sort_search;
+package com.lis.leetcode.lc.base.sortAndsearch;
 
 import java.util.Arrays;
 

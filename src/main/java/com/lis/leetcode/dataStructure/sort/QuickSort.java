@@ -1,4 +1,4 @@
-package com.lis.leetcode.sort;
+package com.lis.leetcode.dataStructure.sort;
 
 import java.util.*;
 import java.util.stream.Collectors;
