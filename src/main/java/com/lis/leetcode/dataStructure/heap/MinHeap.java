@@ -6,6 +6,7 @@ package com.lis.leetcode.dataStructure.heap;
  * 当前节点的父节点： (i - 1) / 2
  * 左子节点: 2 * i + 1
  * 右子节点： 2 * i + 2
+ *
  * @author Lis on 2022/3/6
  **/
 public class MinHeap {
@@ -16,13 +17,14 @@ public class MinHeap {
 
     /**
      * 构造函数
+     *
      * @param maxSize
      */
     public MinHeap(int maxSize) {
         heap = new int[maxSize];
     }
 
-    public MinHeap(int[] arr,int maxSize) {
+    public MinHeap(int[] arr, int maxSize) {
         heap = new int[arr.length > maxSize ? arr.length : maxSize];
         System.arraycopy(arr, 0, heap, 0, arr.length);
         size = arr.length;
@@ -38,6 +40,7 @@ public class MinHeap {
 
     /**
      * 自顶向下调整为最小堆
+     *
      * @param start
      * @param end
      */
@@ -55,7 +58,7 @@ public class MinHeap {
             if (heap[j] > temp) {
                 // 已经是理想的情况
                 break;
-            } else{
+            } else {
                 // 父子节点交换元素
                 heap[i] = heap[j];
                 // 从调整之后的子节点位置开始继续处理
@@ -68,6 +71,7 @@ public class MinHeap {
 
     /**
      * 自自底向上调整为最小堆
+     *
      * @param start
      */
     private void shiftUp(int start) {
@@ -145,7 +149,7 @@ public class MinHeap {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3, 4,5 };
+        int[] arr = new int[]{1, 2, 3, 4, 5};
         MinHeap heap = new MinHeap(arr, 5);
         heap.printMinHeap(0);
     }
