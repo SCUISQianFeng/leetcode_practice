@@ -1,4 +1,4 @@
-package com.lis.leetcode;
+package com.lis.leetcode.swardoffer;
 
 import java.util.Stack;
 
@@ -24,6 +24,9 @@ public class Quiz07 {
         if(stack1.empty() || stack2.empty()) {
             throw new RuntimeException("无法获取有效的值");
         }
-        while ()
+        while (!stack1.empty()) {
+            stack2.push(stack1.pop());
+        }
+        return stack2.pop();
     }
 }
