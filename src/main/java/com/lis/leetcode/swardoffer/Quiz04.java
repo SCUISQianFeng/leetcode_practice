@@ -22,7 +22,7 @@ public class Quiz04 {
             if (String.valueOf(str.charAt(i)).equals(" ")) {
                 sb.append("%20");
             } else {
-                sb.append(String.valueOf(str.charAt(i)));
+                sb.append(str.charAt(i));
             }
         }
         return sb.toString();
