@@ -1,6 +1,6 @@
 package com.lis.leetcode.swardoffer;
 
-import com.lis.leetcode.lc.base.common.TreeLinkNode;
+import com.lis.leetcode.lc.common.TreeLinkNode;
 
 /**
  * ClassName Quiz58

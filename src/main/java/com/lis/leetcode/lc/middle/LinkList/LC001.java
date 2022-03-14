@@ -1,9 +1,6 @@
 package com.lis.leetcode.lc.middle.LinkList;
 
-import com.lis.leetcode.lc.base.common.ListNode;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.lis.leetcode.lc.common.ListNode;
 
 /**
  * LC001

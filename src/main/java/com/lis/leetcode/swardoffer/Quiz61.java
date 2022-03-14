@@ -1,6 +1,6 @@
 package com.lis.leetcode.swardoffer;
 
-import com.lis.leetcode.lc.base.common.TreeNode;
+import com.lis.leetcode.lc.common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,6 +1,6 @@
 package com.lis.leetcode.lc.middle.LinkList;
 
-import com.lis.leetcode.lc.base.common.ListNode;
+import com.lis.leetcode.lc.common.ListNode;
 
 /**
  * LC002

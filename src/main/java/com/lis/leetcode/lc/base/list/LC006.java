@@ -1,12 +1,11 @@
 package com.lis.leetcode.lc.base.list;
 
-import com.lis.leetcode.lc.base.common.ListNode;
+import com.lis.leetcode.lc.common.ListNode;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 
 /**

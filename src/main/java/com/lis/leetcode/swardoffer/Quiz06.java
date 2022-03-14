@@ -1,8 +1,7 @@
 package com.lis.leetcode.swardoffer;
 
-import com.lis.leetcode.lc.base.common.TreeNode;
+import com.lis.leetcode.lc.common.TreeNode;
 
-import javax.naming.BinaryRefAddr;
 import java.util.Arrays;
 
 /**

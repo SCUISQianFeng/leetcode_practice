@@ -1,8 +1,7 @@
 package com.lis.leetcode.swardoffer;
 
 
-import com.lis.leetcode.lc.base.common.TreeNode;
-import sun.reflect.generics.tree.Tree;
+import com.lis.leetcode.lc.common.TreeNode;
 
 /**
  * ClassName Quiz18

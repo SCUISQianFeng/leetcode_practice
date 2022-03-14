@@ -1,6 +1,6 @@
 package com.lis.leetcode.swardoffer;
 
-import com.lis.leetcode.lc.base.common.ListNode;
+import com.lis.leetcode.lc.common.ListNode;
 
 /**
  * ClassName Quiz16

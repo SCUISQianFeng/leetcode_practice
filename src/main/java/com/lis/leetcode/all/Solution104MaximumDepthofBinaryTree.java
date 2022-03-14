@@ -1,6 +1,6 @@
 package com.lis.leetcode.all;
 
-import com.lis.leetcode.lc.base.common.TreeNode;
+import com.lis.leetcode.lc.common.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

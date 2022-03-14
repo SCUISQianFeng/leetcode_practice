@@ -1,4 +1,4 @@
-package com.lis.leetcode.lc.base.common;
+package com.lis.leetcode.lc.common;
 
 /**
  * ClassName TreeLinkNode

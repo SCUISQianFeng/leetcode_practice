@@ -1,6 +1,6 @@
 package com.lis.leetcode.lc.base.tree;
 
-import com.lis.leetcode.lc.base.common.TreeNode;
+import com.lis.leetcode.lc.common.TreeNode;
 
 /**
  * LC005

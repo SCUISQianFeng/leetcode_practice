@@ -1,6 +1,6 @@
 package com.lis.leetcode.lc.base.list;
 
-import com.lis.leetcode.lc.base.common.ListNode;
+import com.lis.leetcode.lc.common.ListNode;
 
 import java.util.Stack;
 

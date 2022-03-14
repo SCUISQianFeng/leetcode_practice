@@ -1,8 +1,6 @@
 package com.lis.leetcode.swardoffer;
 
-import com.lis.leetcode.lc.base.common.RandomListNode;
-
-import java.util.Random;
+import com.lis.leetcode.lc.common.RandomListNode;
 
 /**
  * ClassName Quiz26
