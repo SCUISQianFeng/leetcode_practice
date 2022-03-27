@@ -8,13 +8,13 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * Solution49GroupAangrams
+ * Solution049GroupAangrams
  *
  * @author Lis
  * @version 1.0
  * @date 2022-2-21 11:44
  */
-public class Solution49GroupAangrams {
+public class Solution049GroupAangrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         String s = strs[0];
         char[] sc = s.toCharArray();

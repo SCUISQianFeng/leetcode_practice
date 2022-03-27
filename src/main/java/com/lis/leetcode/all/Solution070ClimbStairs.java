@@ -1,14 +1,14 @@
 package com.lis.leetcode.all;
 
 /**
- * ClassName Solution70ClimbStairs
+ * ClassName Solution070ClimbStairs
  * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
  *
  * 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
  * 用一个数组来维护当前台阶的可能性，当前台阶的总数等于res[n-1] + res[n-2]
  * @author Lis on 2022/3/21
  **/
-public class Solution70ClimbStairs {
+public class Solution070ClimbStairs {
 
     public int climbStairs(int n) {
         if (n <= 0) {
@@ -28,7 +28,7 @@ public class Solution70ClimbStairs {
     }
 
     public static void main(String[] args) {
-        Solution70ClimbStairs solu = new Solution70ClimbStairs();
+        Solution070ClimbStairs solu = new Solution070ClimbStairs();
         System.out.println(solu.climbStairs(3));
     }
 }

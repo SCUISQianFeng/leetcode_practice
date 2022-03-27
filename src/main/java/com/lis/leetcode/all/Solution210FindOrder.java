@@ -157,7 +157,7 @@ public class Solution210FindOrder {
                 }
             }
         }
-        // reset：该节点的深度遍历已经完成，该node要么没后继，要么改node的后继中有入度为零的
+        // reset：该节点的深度遍历已经完成，该node要么没后继，要么该node在本轮遍历中已经结束，其他的遍历中可能还会用到
         localVisited[node] = false;
         list.add(node);
         return true;

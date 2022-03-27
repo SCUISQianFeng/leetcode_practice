@@ -1,6 +1,5 @@
 package com.lis.leetcode.all;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -21,7 +20,7 @@ import java.util.List;
  * @version 1.0
  * @date 2022-3-4 11:40
  */
-public class Solution51NQueens {
+public class Solution051NQueens {
     private List<List<String>> result = new LinkedList<>();
     /**
      * 解决思路：1、将棋盘抽象为n x n的二维数组
@@ -64,7 +63,7 @@ public class Solution51NQueens {
     }
 
   public static void main(String[] args) {
-      Solution51NQueens solu = new Solution51NQueens();
+      Solution051NQueens solu = new Solution051NQueens();
       char[][] charMatrix = {{'a', 'b'}, {'1', '2'}};
       System.out.println(Arrays.toString(solu.charToList(charMatrix).toArray()));
   }

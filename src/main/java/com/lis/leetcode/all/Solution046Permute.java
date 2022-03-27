@@ -5,13 +5,13 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Solution46Permute
+ * Solution046Permute
  *
  * @author Lis
  * @version 1.0
  * @date 2022-3-4 10:59
  */
-public class Solution46Permute {
+public class Solution046Permute {
   // 存储全局的结果
   List<List<Integer>> result = new LinkedList<>();
 
@@ -42,7 +42,7 @@ public class Solution46Permute {
   }
 
   public static void main(String[] args) {
-	  Solution46Permute solu = new Solution46Permute();
+	  Solution046Permute solu = new Solution046Permute();
 	  int[] nums = {1,2, 3};
 	  List<List<Integer>> permute = solu.permute(nums);
 	  for (List<Integer> value: permute) {
