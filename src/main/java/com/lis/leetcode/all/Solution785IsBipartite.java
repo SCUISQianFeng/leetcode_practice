@@ -23,6 +23,7 @@ package com.lis.leetcode.all;
  * @author Lis on 2022/3/27
  **/
 public class Solution785IsBipartite {
+
     public boolean isBipartite(int[][] graph) {
 
         int[] colors = new int[graph.length + 1];
@@ -33,9 +34,10 @@ public class Solution785IsBipartite {
                 return false;
             }
         }
+        return false;
     }
 
     private boolean dfs(int[][] graph, int[] colors, int node) {
-
+        return false;
     }
 }
